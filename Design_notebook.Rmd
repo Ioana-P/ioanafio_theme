@@ -1,0 +1,39 @@
+---
+title: "Designing_my_theme"
+author: "Ioana Preoteasa"
+date: "2022-10-23"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, include=TRUE, fig.height=6, fig.width=5)
+library(ggplot2)
+library(tidyverse)
+library(reshape)
+
+```
+
+## Designing my own ggplot theme
+### Part 1: Classic style (no, *not* `classic_theme()`)
+
+A little while after being introduced to ggplot and the myriad ways that it could be customized, I felt a need to introduce my own personal style and aesthetic into my plots in a more deliberate and careful manner. Normally when drafting a plot, unless I was using a client's preferred theme, I would quickly slap `theme_minimal()` or `theme_classic()` on the end of a graph, shamelessly relying on ggplot's ultra-convenient layer-based system, and then tweaking the results bit by bit. This has served me well, but it's not systematic enough to my liking. I had a feeling about what I wanted in my plots; I could tell, case-by-case, what the difficulties were in painting each particular picture. But this isn't enough - I have to take the time to sit back and consider "what do I generally value across all my data viz? What are the things I always do - and are, hence, automatable - and what goals always seem just beyond my reach?". 
+
+It may seem esoteric to take aesthetic principles as a starting-point for a blog post about making a ggplot theme. However, my approach to visualisation draws on a mixture of graphing trial-and-error - I made plots for clients, tweaked them, got (*mostly* useful) feedback - and my theoretical knowledge and practice of writing. I've found that the process of making graphs is not too different to the process of writing - in both cases you are *telling a story*. People may groan here, either at the cliché, or the implications of it. In any plotting, you cannot simply present the entirety of the facts or findings to the reader, naked and un-garnished - so it is with writing. I try to apply the same elements of style I follow in my writing to my plotting. The cornerstone text I rely on for writing is called "A Sense of Style" by S. Pinker (2015). I recommend it especially for those writing non-fiction, as one of its key target audiences are people who would otherwise have been driven to appalling, obscurantist writing by their academic peers (nervous science graduates writing dry dissertations, I'm looking at you). Many of its principles are applicable to visualization as well. 
+
+
+
+
+
+
+
+```{r defining_the_basic_function}
+
+
+
+
+
+
+### References:
+
+1. Pinker, S. (2015). The sense of style : the thinking person’s guide to writing in the 21st century. London: Penguin Books.
+
